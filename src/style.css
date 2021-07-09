@@ -8,13 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body {
-  background-color: #581b98;
+  background-color: #0e153a;
 }
 
 a {
   text-decoration: none;
-  color: #1689d0;
   cursor: pointer;
+  color: #0e153a !important;
 }
 
 /* NAV */
@@ -71,7 +71,7 @@ main {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
-  color: #ffa300;
+  color: #22d1ee;
   font-family: 'Orbitron', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -90,7 +90,7 @@ main {
 }
 /* FORM */
 .form-container {
-  border: 10px solid #f3558e;
+  border: 10px solid #e2f3f5;
   background-color: white;
   margin-top: 15px;
   border-radius: 1px;
@@ -100,14 +100,15 @@ main {
   padding: 30px 30px 0 30px;
   display: flex;
   flex-direction: column;
-  color: #505050;
+  color: #e2f3f5;
+  background-color: #3d5af1;
 }
 
 .title h3 {
   font-weight: 500;
   font-size: 24px;
   margin: 0 0 4px 0;
-  color: #f3558e;
+  color: #22d1ee;
 }
 
 .paragraph {
@@ -150,8 +151,8 @@ main {
   width: 100%;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 3px;
-  background-color: #ffa300;
-  color: white;
+  background-color: #0e153a;
+  color: #e2f3f5;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
   font-size: 16px;
   cursor: pointer;
@@ -168,7 +169,7 @@ main {
 .terms {
   font-style: italic;
   font-size: 12px;
-  color: #757575;
+  color: #e2f3f5;
   text-align: center;
   padding-bottom: 30px;
   line-height: 175%;
@@ -183,7 +184,7 @@ main {
   font-size: 10px;
   color: #757575;
   text-align: center;
-  background-color: #eceef1;
+  background-color: #e2f3f5;
   padding: 25px 0;
 }
 
@@ -222,15 +223,15 @@ footer {
 }
 
 .privacy {
-  background-color: #9c1de7;
+  background-color: #22d1ee;
   padding: 15px;
-  color: #ccc;
+  color: #e2f3f5;
   font-family: 'Orbitron', sans-serif;
   font-weight: 800;
   font-size: 14px;
   position: fixed;
   top: 0;
   right: 60px;
-  border-radius: 3px 3px 0 0;
+  border-radius: 0px 0px 3px 3px;
   cursor: pointer;
 }
