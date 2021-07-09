@@ -6,7 +6,7 @@
 
 # Screenshot
 
-![screenshot](./src/img/Screenshot.png)
+![screenshot](./html.png)
 
 ## Developers
 
